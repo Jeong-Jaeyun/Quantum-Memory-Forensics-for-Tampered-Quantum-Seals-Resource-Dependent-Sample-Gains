@@ -1,0 +1,19 @@
+{
+  "experiment": "P and local tamper",
+  "title": "Bundle rerun of the 11-05 P (self-referenced pairs) and local-tamper measurements",
+  "time": "~12 min",
+  "workers": 6,
+  "done": "PL DONE",
+  "steps": [
+    {
+      "name": "pl_local",
+      "task": "uniform",
+      "args": {"out": "{results}/pl_local.jsonl", "model": "local", "methods": ["memory", "ml_product"], "rs": [4, 5, 6, 7, 8], "epss": [0.3], "p0s": [0], "trials": 20}
+    },
+    {
+      "name": "pl_paired",
+      "task": "uniform",
+      "args": {"out": "{results}/pl_paired.jsonl", "model": "scramble", "methods": ["paired"], "rs": [4, 5, 6, 7, 8, 9, 10], "epss": [0.15, 0.6], "p0s": [0, 0.005], "trials": 20}
+    }
+  ]
+}

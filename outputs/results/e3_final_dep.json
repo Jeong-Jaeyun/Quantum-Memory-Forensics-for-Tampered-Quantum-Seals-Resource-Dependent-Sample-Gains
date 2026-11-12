@@ -1,0 +1,1528 @@
+{
+ "crossover": {
+  "dep,r=6,eps=0.15": {
+   "bracket": [
+    0.25,
+    0.3
+   ],
+   "interpolated": null,
+   "non_monotone": false,
+   "memoryless_n90": 146079,
+   "memoryless_is_lower_bound": false,
+   "vault": [
+    {
+     "pv": 0.0,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 21911,
+     "n90": 1933,
+     "censored": false,
+     "at_cap": false,
+     "prev": 1550,
+     "ci90": [
+      1550.0,
+      1933.0
+     ],
+     "usable": true,
+     "grid_step": 1.2470967741935484,
+     "ci90_grid_limited": true,
+     "n90_interp": 1637.9729942283982,
+     "ci90_interp": [
+      1313.5187332518854,
+      1849.4892989660257
+     ]
+    },
+    {
+     "pv": 0.05,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 28875,
+     "n90": 2959,
+     "censored": false,
+     "at_cap": false,
+     "prev": 2356,
+     "ci90": [
+      2356.0,
+      3716.0
+     ],
+     "usable": true,
+     "grid_step": 1.2559422750424447,
+     "ci90_grid_limited": false,
+     "n90_interp": 2701.2021924245487,
+     "ci90_interp": [
+      2302.931609815375,
+      3132.4031368082515
+     ]
+    },
+    {
+     "pv": 0.1,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 38839,
+     "n90": 4668,
+     "censored": false,
+     "at_cap": false,
+     "prev": 3689,
+     "ci90": [
+      4668.0,
+      7475.0
+     ],
+     "usable": true,
+     "grid_step": 1.2653835727839522,
+     "ci90_grid_limited": false,
+     "n90_interp": 4547.501238596552,
+     "ci90_interp": [
+      4149.729147787842,
+      6644.909705932809
+     ]
+    },
+    {
+     "pv": 0.15,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 341333,
+     "n90": 13879,
+     "censored": false,
+     "at_cap": false,
+     "prev": 10373,
+     "ci90": [
+      10373.0,
+      13879.0
+     ],
+     "usable": true,
+     "grid_step": 1.337992866094669,
+     "ci90_grid_limited": true,
+     "n90_interp": 11156.239456799627,
+     "ci90_interp": [
+      9330.9994090291,
+      13437.168209001824
+     ]
+    },
+    {
+     "pv": 0.2,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 341333,
+     "n90": 44474,
+     "censored": false,
+     "at_cap": false,
+     "prev": 33240,
+     "ci90": [
+      33240.0,
+      44474.0
+     ],
+     "usable": true,
+     "grid_step": 1.3379663056558364,
+     "ci90_grid_limited": true,
+     "n90_interp": 35749.69239186874,
+     "ci90_interp": [
+      28736.989403902444,
+      42662.13592526919
+     ]
+    },
+    {
+     "pv": 0.25,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 341333,
+     "n90": 79613,
+     "censored": false,
+     "at_cap": false,
+     "prev": 59504,
+     "ci90": [
+      59504.0,
+      106518.0
+     ],
+     "usable": true,
+     "grid_step": 1.3379436676525949,
+     "ci90_grid_limited": false,
+     "n90_interp": 70861.25799547051,
+     "ci90_interp": [
+      57079.9137570213,
+      92088.09659233925
+     ]
+    },
+    {
+     "pv": 0.3,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 341333,
+     "n90": 341333,
+     "censored": false,
+     "at_cap": true,
+     "prev": 255117,
+     "ci90": [
+      190678.0,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": 1.3379469027936202,
+     "ci90_grid_limited": false,
+     "n90_interp": 295092.9530859728,
+     "ci90_interp": [
+      173042.95297596228,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.35,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 341333,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.4,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 462010,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.5,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 1774858,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.6,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 13694894,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    }
+   ]
+  },
+  "dep,r=6,eps=0.6": {
+   "bracket": [
+    0.2,
+    0.25
+   ],
+   "interpolated": 0.2387870522289592,
+   "non_monotone": false,
+   "memoryless_n90": 5828,
+   "memoryless_is_lower_bound": false,
+   "vault": [
+    {
+     "pv": 0.0,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 1369,
+     "n90": 93,
+     "censored": false,
+     "at_cap": false,
+     "prev": 80,
+     "ci90": [
+      69.0,
+      108.0
+     ],
+     "usable": true,
+     "grid_step": 1.1625,
+     "ci90_grid_limited": false,
+     "n90_interp": 89.56425301904434,
+     "ci90_interp": [
+      66.35135877208542,
+      100.21975853094042
+     ]
+    },
+    {
+     "pv": 0.05,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 1804,
+     "n90": 172,
+     "censored": false,
+     "at_cap": false,
+     "prev": 147,
+     "ci90": [
+      147.0,
+      201.0
+     ],
+     "usable": true,
+     "grid_step": 1.1700680272108843,
+     "ci90_grid_limited": false,
+     "n90_interp": 165.37721304150122,
+     "ci90_interp": [
+      139.6373949841705,
+      183.8776104913757
+     ]
+    },
+    {
+     "pv": 0.1,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 2427,
+     "n90": 398,
+     "censored": false,
+     "at_cap": false,
+     "prev": 338,
+     "ci90": [
+      338.0,
+      398.0
+     ],
+     "usable": true,
+     "grid_step": 1.1775147928994083,
+     "ci90_grid_limited": true,
+     "n90_interp": 352.09373153934985,
+     "ci90_interp": [
+      298.97893986935793,
+      388.81679758292
+     ]
+    },
+    {
+     "pv": 0.15,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 21333,
+     "n90": 631,
+     "censored": false,
+     "at_cap": false,
+     "prev": 506,
+     "ci90": [
+      506.0,
+      980.0
+     ],
+     "usable": true,
+     "grid_step": 1.2470355731225296,
+     "ci90_grid_limited": false,
+     "n90_interp": 630.9999999999998,
+     "ci90_interp": [
+      506.0000000000001,
+      837.1340039094512
+     ]
+    },
+    {
+     "pv": 0.2,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 21333,
+     "n90": 2944,
+     "censored": false,
+     "at_cap": false,
+     "prev": 2363,
+     "ci90": [
+      1896.0,
+      3669.0
+     ],
+     "usable": true,
+     "grid_step": 1.2458738891239949,
+     "ci90_grid_limited": false,
+     "n90_interp": 2735.9812134637896,
+     "ci90_interp": [
+      1895.9999999999993,
+      3286.569031680301
+     ]
+    },
+    {
+     "pv": 0.25,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 21333,
+     "n90": 7100,
+     "censored": false,
+     "at_cap": false,
+     "prev": 5697,
+     "ci90": [
+      5697.0,
+      13738.0
+     ],
+     "usable": true,
+     "grid_step": 1.2462699666491135,
+     "ci90_grid_limited": false,
+     "n90_interp": 6359.929244889439,
+     "ci90_interp": [
+      4830.490375714438,
+      12306.967538756247
+     ]
+    },
+    {
+     "pv": 0.3,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 21333,
+     "n90": 17119,
+     "censored": false,
+     "at_cap": false,
+     "prev": 13738,
+     "ci90": [
+      13738.0,
+      Infinity
+     ],
+     "usable": true,
+     "grid_step": 1.2461056922405007,
+     "ci90_grid_limited": false,
+     "n90_interp": 17118.999999999993,
+     "ci90_interp": [
+      12306.967538756247,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.35,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 21333,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.4,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 28875,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.5,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 110928,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.6,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 855930,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    }
+   ]
+  },
+  "dep,r=8,eps=0.15": {
+   "bracket": [
+    0.25,
+    0.3
+   ],
+   "interpolated": null,
+   "non_monotone": false,
+   "memoryless_n90": 737941,
+   "memoryless_is_lower_bound": false,
+   "vault": [
+    {
+     "pv": 0.0,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 29609,
+     "n90": 1909,
+     "censored": false,
+     "at_cap": false,
+     "prev": 1519,
+     "ci90": [
+      1909.0,
+      2399.0
+     ],
+     "usable": true,
+     "grid_step": 1.2567478604344964,
+     "ci90_grid_limited": true,
+     "n90_interp": 1909.0000000000007,
+     "ci90_interp": [
+      1702.871398550109,
+      2175.2317796891753
+     ]
+    },
+    {
+     "pv": 0.05,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 44792,
+     "n90": 4102,
+     "censored": false,
+     "at_cap": false,
+     "prev": 3229,
+     "ci90": [
+      3229.0,
+      5209.0
+     ],
+     "usable": true,
+     "grid_step": 1.2703623412821308,
+     "ci90_grid_limited": false,
+     "n90_interp": 3787.5041644469825,
+     "ci90_interp": [
+      3228.999999999998,
+      4302.762711653796
+     ]
+    },
+    {
+     "pv": 0.1,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 69873,
+     "n90": 15547,
+     "censored": false,
+     "at_cap": false,
+     "prev": 12103,
+     "ci90": [
+      12103.0,
+      15547.0
+     ],
+     "usable": true,
+     "grid_step": 1.2845575477154425,
+     "ci90_grid_limited": true,
+     "n90_interp": 13378.100661062159,
+     "ci90_interp": [
+      10870.916589734255,
+      15546.999999999989
+     ]
+    },
+    {
+     "pv": 0.15,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 1820444,
+     "n90": 33054,
+     "censored": false,
+     "at_cap": false,
+     "prev": 23667,
+     "ci90": [
+      33054.0,
+      46163.0
+     ],
+     "usable": true,
+     "grid_step": 1.396628216503993,
+     "ci90_grid_limited": true,
+     "n90_interp": 33053.999999999985,
+     "ci90_interp": [
+      28919.561126512028,
+      43179.74012605654
+     ]
+    },
+    {
+     "pv": 0.2,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 1820444,
+     "n90": 175638,
+     "censored": false,
+     "at_cap": false,
+     "prev": 125759,
+     "ci90": [
+      125759.0,
+      245300.0
+     ],
+     "usable": true,
+     "grid_step": 1.3966237008882068,
+     "ci90_grid_limited": false,
+     "n90_interp": 157129.84443042893,
+     "ci90_interp": [
+      112506.9240041598,
+      207566.86007164055
+     ]
+    },
+    {
+     "pv": 0.25,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 1820444,
+     "n90": 668248,
+     "censored": false,
+     "at_cap": false,
+     "prev": 478473,
+     "ci90": [
+      342592.0,
+      933292.0
+     ],
+     "usable": true,
+     "grid_step": 1.3966263509121726,
+     "ci90_grid_limited": false,
+     "n90_interp": 565454.3529799731,
+     "ci90_interp": [
+      320450.74348312005,
+      706508.9159291929
+     ]
+    },
+    {
+     "pv": 0.3,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 1820444,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.35,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 1820444,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.4,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 2866729,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.5,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 21585142,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.6,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 462644523,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    }
+   ]
+  },
+  "dep,r=8,eps=0.6": {
+   "bracket": [
+    0.25,
+    0.3
+   ],
+   "interpolated": null,
+   "non_monotone": false,
+   "memoryless_n90": 32208,
+   "memoryless_is_lower_bound": false,
+   "vault": [
+    {
+     "pv": 0.0,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 1875,
+     "n90": 110,
+     "censored": false,
+     "at_cap": false,
+     "prev": 94,
+     "ci90": [
+      80.0,
+      128.0
+     ],
+     "usable": true,
+     "grid_step": 1.1702127659574468,
+     "ci90_grid_limited": false,
+     "n90_interp": 99.05645863040104,
+     "ci90_interp": [
+      79.99999999999997,
+      115.69957935048897
+     ]
+    },
+    {
+     "pv": 0.05,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 3257,
+     "n90": 294,
+     "censored": false,
+     "at_cap": false,
+     "prev": 247,
+     "ci90": [
+      208.0,
+      349.0
+     ],
+     "usable": true,
+     "grid_step": 1.1902834008097165,
+     "ci90_grid_limited": false,
+     "n90_interp": 277.4153820403761,
+     "ci90_interp": [
+      207.99999999999997,
+      308.76409103211705
+     ]
+    },
+    {
+     "pv": 0.1,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 5892,
+     "n90": 624,
+     "censored": false,
+     "at_cap": false,
+     "prev": 518,
+     "ci90": [
+      518.0,
+      753.0
+     ],
+     "usable": true,
+     "grid_step": 1.2046332046332047,
+     "ci90_grid_limited": false,
+     "n90_interp": 624.0000000000001,
+     "ci90_interp": [
+      486.45081710415644,
+      725.2252207429561
+     ]
+    },
+    {
+     "pv": 0.15,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 113777,
+     "n90": 1693,
+     "censored": false,
+     "at_cap": false,
+     "prev": 1302,
+     "ci90": [
+      1693.0,
+      3727.0
+     ],
+     "usable": true,
+     "grid_step": 1.3003072196620584,
+     "ci90_grid_limited": false,
+     "n90_interp": 1693.0000000000002,
+     "ci90_interp": [
+      1446.2033852306138,
+      2993.393105535809
+     ]
+    },
+    {
+     "pv": 0.2,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 113777,
+     "n90": 8204,
+     "censored": false,
+     "at_cap": false,
+     "prev": 6307,
+     "ci90": [
+      6307.0,
+      10671.0
+     ],
+     "usable": true,
+     "grid_step": 1.3007769145394006,
+     "ci90_grid_limited": false,
+     "n90_interp": 7682.011385917505,
+     "ci90_interp": [
+      5905.514987487803,
+      10124.39839398806
+     ]
+    },
+    {
+     "pv": 0.25,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 113777,
+     "n90": 30551,
+     "censored": false,
+     "at_cap": false,
+     "prev": 23487,
+     "ci90": [
+      23487.0,
+      39741.0
+     ],
+     "usable": true,
+     "grid_step": 1.3007621237280198,
+     "ci90_grid_limited": false,
+     "n90_interp": 30550.99999999998,
+     "ci90_interp": [
+      21141.95514551772,
+      38036.73500268323
+     ]
+    },
+    {
+     "pv": 0.3,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 113777,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      87468.0,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      87468.0,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.35,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 286501,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.4,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 833802,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.5,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 12305164,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.6,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 732617743,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    }
+   ]
+  },
+  "dep,r=10,eps=0.15": {
+   "bracket": [
+    0.2,
+    0.25
+   ],
+   "interpolated": 0.24815058086628095,
+   "non_monotone": false,
+   "memoryless_n90": 3953373,
+   "memoryless_is_lower_bound": false,
+   "vault": [
+    {
+     "pv": 0.0,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 37011,
+     "n90": 2228,
+     "censored": false,
+     "at_cap": false,
+     "prev": 1763,
+     "ci90": [
+      2228.0,
+      2816.0
+     ],
+     "usable": true,
+     "grid_step": 1.2637549631310268,
+     "ci90_grid_limited": true,
+     "n90_interp": 2228.000000000001,
+     "ci90_interp": [
+      2118.9967220542862,
+      2472.423986319652
+     ]
+    },
+    {
+     "pv": 0.05,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 55990,
+     "n90": 7900,
+     "censored": false,
+     "at_cap": false,
+     "prev": 6185,
+     "ci90": [
+      6185.0,
+      10091.0
+     ],
+     "usable": true,
+     "grid_step": 1.2772837510105093,
+     "ci90_grid_limited": false,
+     "n90_interp": 6990.100142344178,
+     "ci90_interp": [
+      5817.829296213149,
+      8228.95985780953
+     ]
+    },
+    {
+     "pv": 0.1,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 87342,
+     "n90": 24262,
+     "censored": false,
+     "at_cap": false,
+     "prev": 18778,
+     "ci90": [
+      24262.0,
+      40499.0
+     ],
+     "usable": true,
+     "grid_step": 1.2920438811375012,
+     "ci90_grid_limited": false,
+     "n90_interp": 24262.0,
+     "ci90_interp": [
+      20452.28123307828,
+      36896.51339840365
+     ]
+    },
+    {
+     "pv": 0.15,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 9102222,
+     "n90": 100721,
+     "censored": false,
+     "at_cap": false,
+     "prev": 69202,
+     "ci90": [
+      69202.0,
+      100721.0
+     ],
+     "usable": true,
+     "grid_step": 1.4554637149215341,
+     "ci90_grid_limited": true,
+     "n90_interp": 80411.69177058847,
+     "ci90_interp": [
+      64637.03630085945,
+      100721.0
+     ]
+    },
+    {
+     "pv": 0.2,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 9102222,
+     "n90": 451991,
+     "censored": false,
+     "at_cap": false,
+     "prev": 310547,
+     "ci90": [
+      213366.0,
+      957489.0
+     ],
+     "usable": true,
+     "grid_step": 1.455467288365368,
+     "ci90_grid_limited": false,
+     "n90_interp": 419304.28193972807,
+     "ci90_interp": [
+      213366.00000000015,
+      700323.2570180905
+     ]
+    },
+    {
+     "pv": 0.25,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 9102222,
+     "n90": 4296778,
+     "censored": false,
+     "at_cap": false,
+     "prev": 2952165,
+     "ci90": [
+      2028329.0,
+      4296778.0
+     ],
+     "usable": true,
+     "grid_step": 1.4554667506728114,
+     "ci90_grid_limited": false,
+     "n90_interp": 3345605.452663568,
+     "ci90_interp": [
+      1789799.390959262,
+      3791480.4372019246
+     ]
+    },
+    {
+     "pv": 0.3,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 9102222,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.35,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 9102222,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.4,
+     "side": "unknown",
+     "trials": 50,
+     "horizon": 3583411,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.5,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 26981428,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.6,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 578305654,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    }
+   ]
+  },
+  "dep,r=10,eps=0.6": {
+   "bracket": [
+    0.2,
+    0.25
+   ],
+   "interpolated": 0.24693650825240088,
+   "non_monotone": false,
+   "memoryless_n90": 153476,
+   "memoryless_is_lower_bound": false,
+   "vault": [
+    {
+     "pv": 0.0,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 2375,
+     "n90": 147,
+     "censored": false,
+     "at_cap": false,
+     "prev": 125,
+     "ci90": [
+      125.0,
+      173.0
+     ],
+     "usable": true,
+     "grid_step": 1.176,
+     "ci90_grid_limited": false,
+     "n90_interp": 131.94080219760193,
+     "ci90_interp": [
+      115.10864433221339,
+      151.04469021745672
+     ]
+    },
+    {
+     "pv": 0.05,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 4736,
+     "n90": 373,
+     "censored": false,
+     "at_cap": false,
+     "prev": 311,
+     "ci90": [
+      311.0,
+      448.0
+     ],
+     "usable": true,
+     "grid_step": 1.1993569131832797,
+     "ci90_grid_limited": false,
+     "n90_interp": 356.4279240291844,
+     "ci90_interp": [
+      306.7444901229989,
+      403.4687565820321
+     ]
+    },
+    {
+     "pv": 0.1,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 9938,
+     "n90": 1339,
+     "censored": false,
+     "at_cap": false,
+     "prev": 1096,
+     "ci90": [
+      1096.0,
+      1339.0
+     ],
+     "usable": true,
+     "grid_step": 1.2217153284671534,
+     "ci90_grid_limited": true,
+     "n90_interp": 1152.2668292562867,
+     "ci90_interp": [
+      1025.1903678145213,
+      1301.2366533611123
+     ]
+    },
+    {
+     "pv": 0.15,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 568888,
+     "n90": 5931,
+     "censored": false,
+     "at_cap": false,
+     "prev": 4375,
+     "ci90": [
+      4375.0,
+      8040.0
+     ],
+     "usable": true,
+     "grid_step": 1.355657142857143,
+     "ci90_grid_limited": false,
+     "n90_interp": 5496.553473279467,
+     "ci90_interp": [
+      4211.682952350021,
+      6905.450021540957
+     ]
+    },
+    {
+     "pv": 0.2,
+     "side": "ahead",
+     "trials": 50,
+     "horizon": 568888,
+     "n90": 36803,
+     "censored": false,
+     "at_cap": false,
+     "prev": 27149,
+     "ci90": [
+      20027.0,
+      36803.0
+     ],
+     "usable": true,
+     "grid_step": 1.3555932078529596,
+     "ci90_grid_limited": false,
+     "n90_interp": 29294.50632094965,
+     "ci90_interp": [
+      19279.73998085335,
+      36803.000000000015
+     ]
+    },
+    {
+     "pv": 0.25,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 568888,
+     "n90": 168468,
+     "censored": false,
+     "at_cap": false,
+     "prev": 124277,
+     "ci90": [
+      124277.0,
+      228373.0
+     ],
+     "usable": true,
+     "grid_step": 1.3555847019158815,
+     "ci90_grid_limited": false,
+     "n90_interp": 168468.0000000001,
+     "ci90_interp": [
+      124277.00000000007,
+      214891.5258465077
+     ]
+    },
+    {
+     "pv": 0.3,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 568888,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      568888.0,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      568888.0,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.35,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 1275998,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.4,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 4850310,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.5,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 140297502,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    },
+    {
+     "pv": 0.6,
+     "side": "behind",
+     "trials": 50,
+     "horizon": 23202641828,
+     "n90": null,
+     "censored": true,
+     "at_cap": false,
+     "prev": null,
+     "ci90": [
+      Infinity,
+      Infinity
+     ],
+     "usable": false,
+     "grid_step": null,
+     "ci90_grid_limited": false,
+     "n90_interp": null,
+     "ci90_interp": [
+      Infinity,
+      Infinity
+     ]
+    }
+   ]
+  }
+ }
+}

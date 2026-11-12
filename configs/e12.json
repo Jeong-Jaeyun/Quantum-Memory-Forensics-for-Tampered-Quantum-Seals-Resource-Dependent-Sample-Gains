@@ -1,0 +1,14 @@
+{
+  "experiment": "E12",
+  "title": "Product probe with no reference against spray",
+  "time": "~25 min",
+  "workers": 6,
+  "done": "E12 DONE",
+  "steps": [
+    {
+      "name": "e12",
+      "task": "product",
+      "args": {"out": "{results}/e12.jsonl", "rs": [4, 6, 8, 10], "epss": [0.15, 0.6], "p0": 0.005, "trials": 200}
+    }
+  ]
+}

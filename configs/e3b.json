@@ -1,0 +1,19 @@
+{
+  "experiment": "E3b",
+  "title": "E3 refinement: same instances, vault horizon floor 20 r 2^r / eps^2 (post hoc)",
+  "time": "~1.5 h",
+  "workers": 6,
+  "done": "E3B DONE",
+  "steps": [
+    {
+      "name": "e3b_dep",
+      "task": "uniform",
+      "args": {"out": "{results}/e3b_dep.jsonl", "model": "scramble", "methods": ["memory"], "rs": [6, 8, 10], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 50, "wts": ["u"], "pvs": [0.15, 0.2, 0.25, 0.3, 0.35], "vkind": "dep", "floor": 20}
+    },
+    {
+      "name": "e3b_deph",
+      "task": "uniform",
+      "args": {"out": "{results}/e3b_deph.jsonl", "model": "scramble", "methods": ["memory"], "rs": [6, 8, 10], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 50, "wts": ["u"], "pvs": [0.15, 0.2, 0.25, 0.3, 0.35], "vkind": "deph", "floor": 20}
+    }
+  ]
+}

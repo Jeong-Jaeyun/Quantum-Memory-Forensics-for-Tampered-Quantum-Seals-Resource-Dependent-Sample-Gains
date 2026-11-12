@@ -1,0 +1,387 @@
+{
+ "tolerance": 1e-10,
+ "checks": [
+  {
+   "check": "vault, noiseless",
+   "max_abs_dev": 2.220446049250313e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 1,
+   "a": 2,
+   "s": 1,
+   "eps": 0.15,
+   "frame": 0
+  },
+  {
+   "check": "vault, noiseless",
+   "max_abs_dev": 2.7755575615628914e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 1,
+   "a": 1,
+   "s": 1,
+   "eps": 0.6,
+   "frame": 2
+  },
+  {
+   "check": "vault, noiseless",
+   "max_abs_dev": 2.220446049250313e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 1,
+   "a": 1,
+   "s": -1,
+   "eps": 0.15,
+   "frame": 3
+  },
+  {
+   "check": "vault, noiseless",
+   "max_abs_dev": 2.7755575615628914e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 1,
+   "a": 1,
+   "s": 1,
+   "eps": 0.6,
+   "frame": 3
+  },
+  {
+   "check": "vault, noiseless",
+   "max_abs_dev": 8.326672684688674e-17,
+   "expected": "0",
+   "ok": true,
+   "r": 2,
+   "a": 5,
+   "s": -1,
+   "eps": 0.15,
+   "frame": 8
+  },
+  {
+   "check": "vault, noiseless",
+   "max_abs_dev": 1.3877787807814457e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 2,
+   "a": 8,
+   "s": 1,
+   "eps": 0.6,
+   "frame": 12
+  },
+  {
+   "check": "vault, noiseless",
+   "max_abs_dev": 1.3877787807814457e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 2,
+   "a": 14,
+   "s": 1,
+   "eps": 0.6,
+   "frame": 6
+  },
+  {
+   "check": "vault, noiseless",
+   "max_abs_dev": 1.3877787807814457e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 2,
+   "a": 7,
+   "s": -1,
+   "eps": 0.6,
+   "frame": 8
+  },
+  {
+   "check": "vault, noiseless",
+   "max_abs_dev": 4.5102810375396984e-17,
+   "expected": "0",
+   "ok": true,
+   "r": 3,
+   "a": 50,
+   "s": 1,
+   "eps": 0.6,
+   "frame": 59
+  },
+  {
+   "check": "vault, noiseless",
+   "max_abs_dev": 3.469446951953614e-17,
+   "expected": "0",
+   "ok": true,
+   "r": 3,
+   "a": 53,
+   "s": -1,
+   "eps": 0.15,
+   "frame": 35
+  },
+  {
+   "check": "vault, noiseless",
+   "max_abs_dev": 3.469446951953614e-17,
+   "expected": "0",
+   "ok": true,
+   "r": 3,
+   "a": 21,
+   "s": -1,
+   "eps": 0.15,
+   "frame": 40
+  },
+  {
+   "check": "vault, noiseless",
+   "max_abs_dev": 4.5102810375396984e-17,
+   "expected": "0",
+   "ok": true,
+   "r": 3,
+   "a": 3,
+   "s": 1,
+   "eps": 0.6,
+   "frame": 23
+  },
+  {
+   "check": "vault, benign noise",
+   "max_abs_dev": 3.3306690738754696e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 1,
+   "a": 1,
+   "s": 1,
+   "eps": 0.6,
+   "frame": 0,
+   "p0": 0.05,
+   "pv": 0.2,
+   "vkind": "dep"
+  },
+  {
+   "check": "vault, benign noise",
+   "max_abs_dev": 1.1102230246251565e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 2,
+   "a": 11,
+   "s": 1,
+   "eps": 0.6,
+   "frame": 15,
+   "p0": 0.05,
+   "pv": 0.2,
+   "vkind": "dep"
+  },
+  {
+   "check": "vault, benign noise",
+   "max_abs_dev": 2.7755575615628914e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 1,
+   "a": 3,
+   "s": 1,
+   "eps": 0.6,
+   "frame": 2,
+   "p0": 0.05,
+   "pv": 0.2,
+   "vkind": "deph"
+  },
+  {
+   "check": "vault, benign noise",
+   "max_abs_dev": 1.3877787807814457e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 2,
+   "a": 13,
+   "s": -1,
+   "eps": 0.6,
+   "frame": 9,
+   "p0": 0.05,
+   "pv": 0.2,
+   "vkind": "deph"
+  },
+  {
+   "check": "GHZ probe, noiseless",
+   "max_abs_dev": 3.3306690738754696e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 2,
+   "a": 8,
+   "s": 1,
+   "eps": 0.6,
+   "Mi": [
+    0,
+    1
+   ],
+   "frame": 0
+  },
+  {
+   "check": "GHZ probe, noiseless",
+   "max_abs_dev": 3.885780586188048e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 2,
+   "a": 2,
+   "s": -1,
+   "eps": 0.6,
+   "Mi": [
+    4,
+    1
+   ],
+   "frame": 15
+  },
+  {
+   "check": "GHZ probe, noiseless",
+   "max_abs_dev": 3.0531133177191805e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 2,
+   "a": 11,
+   "s": -1,
+   "eps": 0.6,
+   "Mi": [
+    0,
+    1
+   ],
+   "frame": 2
+  },
+  {
+   "check": "GHZ probe, noiseless",
+   "max_abs_dev": 2.3592239273284576e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 3,
+   "a": 3,
+   "s": 1,
+   "eps": 0.6,
+   "Mi": [
+    4,
+    5,
+    1
+   ],
+   "frame": 6
+  },
+  {
+   "check": "GHZ probe, noiseless",
+   "max_abs_dev": 3.3306690738754696e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 3,
+   "a": 42,
+   "s": 1,
+   "eps": 0.6,
+   "Mi": [
+    3,
+    2,
+    3
+   ],
+   "frame": 63
+  },
+  {
+   "check": "GHZ probe, noiseless",
+   "max_abs_dev": 2.914335439641036e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 3,
+   "a": 43,
+   "s": -1,
+   "eps": 0.6,
+   "Mi": [
+    3,
+    5,
+    1
+   ],
+   "frame": 61
+  },
+  {
+   "check": "GHZ probe, noiseless",
+   "max_abs_dev": 1.5265566588595902e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 4,
+   "a": 220,
+   "s": -1,
+   "eps": 0.6,
+   "Mi": [
+    4,
+    5,
+    5,
+    0
+   ],
+   "frame": 187
+  },
+  {
+   "check": "GHZ probe, noiseless",
+   "max_abs_dev": 1.5265566588595902e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 4,
+   "a": 59,
+   "s": -1,
+   "eps": 0.6,
+   "Mi": [
+    4,
+    2,
+    0,
+    3
+   ],
+   "frame": 110
+  },
+  {
+   "check": "GHZ probe, noiseless",
+   "max_abs_dev": 2.0816681711721685e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 4,
+   "a": 192,
+   "s": 1,
+   "eps": 0.6,
+   "Mi": [
+    4,
+    1,
+    3,
+    5
+   ],
+   "frame": 34
+  },
+  {
+   "check": "GHZ probe, seal noise",
+   "max_abs_dev": 5.273559366969494e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 2,
+   "a": 10,
+   "s": 1,
+   "eps": 0.6,
+   "Mi": [
+    3,
+    5
+   ],
+   "frame": 0,
+   "p0": 0.05
+  },
+  {
+   "check": "GHZ probe, seal noise",
+   "max_abs_dev": 2.0816681711721685e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 3,
+   "a": 25,
+   "s": -1,
+   "eps": 0.6,
+   "Mi": [
+    0,
+    3,
+    2
+   ],
+   "frame": 5,
+   "p0": 0.05
+  },
+  {
+   "check": "coherent attack, no frame",
+   "max_abs_dev": 0.12543509192500746,
+   "expected": "> 1e-3",
+   "ok": true,
+   "r": 2,
+   "attack": "RX(0.7) x RX(0.4)"
+  },
+  {
+   "check": "coherent attack, frame avg",
+   "max_abs_dev": 3.3306690738754696e-16,
+   "expected": "0",
+   "ok": true,
+   "r": 2,
+   "attack": "RX(0.7) x RX(0.4)"
+  }
+ ],
+ "all_ok": true
+}

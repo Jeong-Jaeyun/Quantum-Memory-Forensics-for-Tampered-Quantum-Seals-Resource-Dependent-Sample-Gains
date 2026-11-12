@@ -1,0 +1,19 @@
+{
+  "experiment": "E2 (ml_ghz baseline)",
+  "title": "ml_ghz baseline for the E2 weight-r instances (post hoc)",
+  "time": "~15 min",
+  "workers": 6,
+  "done": "E2 GHZ DONE",
+  "steps": [
+    {
+      "name": "e2_ghz_r6-8",
+      "task": "uniform",
+      "args": {"out": "{results}/e2_ghz.jsonl", "model": "scramble", "methods": ["ml_ghz"], "rs": [6, 8], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 50, "wts": ["r"]}
+    },
+    {
+      "name": "e2_ghz_r10",
+      "task": "uniform",
+      "args": {"out": "{results}/e2_ghz.jsonl", "model": "scramble", "methods": ["ml_ghz"], "rs": [10], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 20, "wts": ["r"]}
+    }
+  ]
+}

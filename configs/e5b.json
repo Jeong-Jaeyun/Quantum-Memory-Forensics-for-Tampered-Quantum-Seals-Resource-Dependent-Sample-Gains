@@ -1,0 +1,19 @@
+{
+  "experiment": "E5b",
+  "title": "E5 rerun with the deterministic (stable-sort) top-k of ml_adaptive_ghz",
+  "time": "~3 h",
+  "workers": 6,
+  "done": "E5B DONE",
+  "steps": [
+    {
+      "name": "e5b_r6-8",
+      "task": "uniform",
+      "args": {"out": "{results}/e5b.jsonl", "model": "scramble", "methods": ["ml_adaptive_ghz"], "rs": [6, 8], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 50, "wts": ["r"]}
+    },
+    {
+      "name": "e5b_r10",
+      "task": "uniform",
+      "args": {"out": "{results}/e5b.jsonl", "model": "scramble", "methods": ["ml_adaptive_ghz"], "rs": [10], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 20, "wts": ["r"]}
+    }
+  ]
+}

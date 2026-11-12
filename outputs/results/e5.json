@@ -1,0 +1,275 @@
+{
+ "table": [
+  {
+   "r": 6,
+   "eps": 0.15,
+   "ghz": {
+    "trials": 50,
+    "horizon": 255530,
+    "n90": 35070,
+    "censored": false,
+    "at_cap": false,
+    "prev": 26407,
+    "ci90": [
+     26407.0,
+     35070.0
+    ],
+    "usable": true,
+    "grid_step": 1.3280569545953724,
+    "ci90_grid_limited": true,
+    "n90_interp": 27948.751066672958,
+    "ci90_interp": [
+     21044.897588283853,
+     31530.401662706514
+    ]
+   },
+   "adaptive": {
+    "trials": 50,
+    "horizon": 255530,
+    "n90": 26407,
+    "censored": false,
+    "at_cap": false,
+    "prev": 19884,
+    "ci90": [
+     19884.0,
+     35070.0
+    ],
+    "usable": true,
+    "grid_step": 1.3280527056930196,
+    "ci90_grid_limited": false,
+    "n90_interp": 22914.554065047832,
+    "ci90_interp": [
+     18335.675553951958,
+     27685.67919108895
+    ]
+   },
+   "speedup": 1.3280569545953724
+  },
+  {
+   "r": 6,
+   "eps": 0.6,
+   "ghz": {
+    "trials": 50,
+    "horizon": 16158,
+    "n90": 1553,
+    "censored": false,
+    "at_cap": false,
+    "prev": 1255,
+    "ci90": [
+     1255.0,
+     1922.0
+    ],
+    "usable": true,
+    "grid_step": 1.2374501992031872,
+    "ci90_grid_limited": false,
+    "n90_interp": 1396.071273252193,
+    "ci90_interp": [
+     1128.6385603903495,
+     1691.2360476108859
+    ]
+   },
+   "adaptive": {
+    "trials": 50,
+    "horizon": 16158,
+    "n90": 1553,
+    "censored": false,
+    "at_cap": false,
+    "prev": 1255,
+    "ci90": [
+     1015.0,
+     2378.0
+    ],
+    "usable": true,
+    "grid_step": 1.2374501992031872,
+    "ci90_grid_limited": false,
+    "n90_interp": 1446.534776503088,
+    "ci90_interp": [
+     972.60299878591,
+     2027.0665171133198
+    ]
+   },
+   "speedup": 1.0
+  },
+  {
+   "r": 8,
+   "eps": 0.15,
+   "ghz": {
+    "trials": 50,
+    "horizon": 603994,
+    "n90": 96442,
+    "censored": false,
+    "at_cap": false,
+    "prev": 71035,
+    "ci90": [
+     71035.0,
+     96442.0
+    ],
+    "usable": true,
+    "grid_step": 1.3576687548391637,
+    "ci90_grid_limited": true,
+    "n90_interp": 77519.94879588892,
+    "ci90_interp": [
+     67505.57797444603,
+     83927.71115224421
+    ]
+   },
+   "adaptive": {
+    "trials": 50,
+    "horizon": 603994,
+    "n90": 71035,
+    "censored": false,
+    "at_cap": false,
+    "prev": 52321,
+    "ci90": [
+     52321.0,
+     71035.0
+    ],
+    "usable": true,
+    "grid_step": 1.3576766499111255,
+    "ci90_grid_limited": true,
+    "n90_interp": 57097.59948974288,
+    "ci90_interp": [
+     49491.76816284413,
+     61817.35346816164
+    ]
+   },
+   "speedup": 1.3576687548391637
+  },
+  {
+   "r": 8,
+   "eps": 0.6,
+   "ghz": {
+    "trials": 50,
+    "horizon": 37937,
+    "n90": 5798,
+    "censored": false,
+    "at_cap": false,
+    "prev": 4585,
+    "ci90": [
+     4585.0,
+     5798.0
+    ],
+    "usable": true,
+    "grid_step": 1.264558342420938,
+    "ci90_grid_limited": true,
+    "n90_interp": 4958.142033988212,
+    "ci90_interp": [
+     4076.8400753524797,
+     5361.651565801679
+    ]
+   },
+   "adaptive": {
+    "trials": 50,
+    "horizon": 37937,
+    "n90": 3625,
+    "censored": false,
+    "at_cap": false,
+    "prev": 2866,
+    "ci90": [
+     2866.0,
+     3625.0
+    ],
+    "usable": true,
+    "grid_step": 1.2648290300069784,
+    "ci90_grid_limited": true,
+    "n90_interp": 3039.3739877522285,
+    "ci90_interp": [
+     2650.541636148183,
+     3505.355232645813
+    ]
+   },
+   "speedup": 1.599448275862069
+  },
+  {
+   "r": 10,
+   "eps": 0.15,
+   "ghz": {
+    "trials": 20,
+    "horizon": 1403736,
+    "n90": 196867,
+    "censored": false,
+    "at_cap": false,
+    "prev": 141902,
+    "ci90": [
+     141902.0,
+     273124.0
+    ],
+    "usable": true,
+    "grid_step": 1.387344787247537,
+    "ci90_grid_limited": false,
+    "n90_interp": 167140.1239499362,
+    "ci90_interp": [
+     135417.99061104743,
+     219567.75947080698
+    ]
+   },
+   "adaptive": {
+    "trials": 20,
+    "horizon": 1403736,
+    "n90": 196867,
+    "censored": false,
+    "at_cap": false,
+    "prev": 141902,
+    "ci90": [
+     141902.0,
+     196867.0
+    ],
+    "usable": true,
+    "grid_step": 1.387344787247537,
+    "ci90_grid_limited": true,
+    "n90_interp": 158264.4303022012,
+    "ci90_interp": [
+     129230.2587781265,
+     176513.57908190347
+    ]
+   },
+   "speedup": 1.0
+  },
+  {
+   "r": 10,
+   "eps": 0.6,
+   "ghz": {
+    "trials": 20,
+    "horizon": 87921,
+    "n90": 14613,
+    "censored": false,
+    "at_cap": false,
+    "prev": 11309,
+    "ci90": [
+     11309.0,
+     24402.0
+    ],
+    "usable": true,
+    "grid_step": 1.2921566893624548,
+    "ci90_grid_limited": false,
+    "n90_interp": 14613.000000000011,
+    "ci90_interp": [
+     10902.391931640115,
+     20568.58751020918
+    ]
+   },
+   "adaptive": {
+    "trials": 20,
+    "horizon": 87921,
+    "n90": 8752,
+    "censored": false,
+    "at_cap": false,
+    "prev": 6773,
+    "ci90": [
+     6773.0,
+     14613.0
+    ],
+    "usable": true,
+    "grid_step": 1.2921895762586741,
+    "ci90_grid_limited": false,
+    "n90_interp": 8751.999999999995,
+    "ci90_interp": [
+     6434.394617900093,
+     12317.689834514897
+    ]
+   },
+   "speedup": 1.6696755027422303
+  }
+ ],
+ "trigger": false
+}

@@ -1,0 +1,14 @@
+{
+  "experiment": "E13",
+  "title": "Self-referenced pairs with a sign phase (P + sign)",
+  "time": "~15 min",
+  "workers": 6,
+  "done": "E13 DONE",
+  "steps": [
+    {
+      "name": "e13",
+      "task": "self_ref",
+      "args": {"out": "{results}/e13.jsonl", "rs": [4, 5, 6, 7, 8, 9, 10], "epss": [0.15, 0.6], "p0s": [0, 0.005], "trials": 20}
+    }
+  ]
+}

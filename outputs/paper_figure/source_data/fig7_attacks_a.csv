@@ -1,0 +1,17 @@
+lab,attacker,eps,r,n90,ci90_lo,ci90_hi,n90_interp,censored
+vault_seal,obl,0.15,4,1199,1199.0,1199.0,1132.404225,False
+vault_seal,obl,0.15,6,2009,1581.0,2009.0,1604.85158,False
+vault_seal,obl,0.15,8,2477,2477.0,2477.0,2317.351432,False
+vault_seal,obl,0.15,10,2874,2874.0,2874.0,2597.5848,False
+vault_seal,obl,0.6,4,58,49.0,67.0,54.216968,False
+vault_seal,obl,0.6,6,96,81.0,96.0,84.30367,False
+vault_seal,obl,0.6,8,114,114.0,136.0,114.0,False
+vault_seal,obl,0.6,10,152,152.0,182.0,142.551636,False
+inseal,obl,0.15,4,1199,1199.0,1506.0,1184.661852,False
+inseal,obl,0.15,6,2009,1581.0,2009.0,1693.011426,False
+inseal,obl,0.15,8,2477,2477.0,2477.0,2177.919621,False
+inseal,obl,0.15,10,2874,2874.0,2874.0,2755.421238,False
+inseal,obl,0.6,4,67,58.0,67.0,60.274527,False
+inseal,obl,0.6,6,96,96.0,114.0,94.268277,False
+inseal,obl,0.6,8,136,136.0,162.0,136.0,False
+inseal,obl,0.6,10,182,182.0,182.0,166.324983,False

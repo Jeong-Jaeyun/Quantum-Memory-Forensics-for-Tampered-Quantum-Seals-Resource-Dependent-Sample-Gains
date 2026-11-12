@@ -1,0 +1,14 @@
+{
+  "experiment": "E11",
+  "title": "Spray-mirror attacker (no secret) vs the vault and in-seal references",
+  "time": "~45 min",
+  "workers": 6,
+  "done": "E11 DONE",
+  "steps": [
+    {
+      "name": "e11",
+      "task": "spray",
+      "args": {"out": "{results}/e11.jsonl", "labs": ["vault_seal", "inseal", "inseal_oracle"], "rs": [4, 6, 8, 10], "epss": [0.15, 0.6], "p0": 0.005, "trials": 200}
+    }
+  ]
+}

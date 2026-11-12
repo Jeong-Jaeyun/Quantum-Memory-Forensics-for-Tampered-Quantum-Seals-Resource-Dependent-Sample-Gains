@@ -1,0 +1,43 @@
+{
+  "experiment": "E5-E8",
+  "title": "E6 and E8 tier 3, E7 several parities, E5 adaptive GHZ (E5 superseded by E5b)",
+  "time": "~3.4 h",
+  "workers": 6,
+  "done": "E5-E8 DONE",
+  "steps": [
+    {
+      "name": "e6_vault",
+      "task": "switch2",
+      "args": {"out": "{results}/e6.jsonl", "modes": ["vault"], "rs": [6, 8, 10], "epss": [0.15, 0.6], "p0": 0.005, "trials": 600},
+      "note": "E6: vault switch demo, 600 trials (300 switch / 300 no switch), seed space 932"
+    },
+    {
+      "name": "e8_ml",
+      "task": "switch2",
+      "args": {"out": "{results}/e8.jsonl", "modes": ["ml_blind", "ml_library"], "rs": [6, 8, 10], "epss": [0.15, 0.6], "p0": 0.005, "trials": 200},
+      "note": "E8: memoryless labs on the same instances"
+    },
+    {
+      "name": "e7_vault",
+      "task": "multi",
+      "args": {"out": "{results}/e7.jsonl", "labs": ["memory"], "rs": [4, 6, 8], "Ks": [1, 2, 3], "epss": [0.3, 0.6], "p0": 0.005, "trials": {"4": 100, "6": 100, "8": 100}},
+      "note": "E7: several hidden parities, eps unknown; trials by r"
+    },
+    {
+      "name": "e7_ml",
+      "task": "multi",
+      "args": {"out": "{results}/e7.jsonl", "labs": ["ml_random"], "rs": [4, 6, 8], "Ks": [1, 2, 3], "epss": [0.3, 0.6], "p0": 0.005, "trials": {"4": 50, "6": 50, "8": 30}}
+    },
+    {
+      "name": "e5_r6-8",
+      "task": "uniform",
+      "args": {"out": "{results}/e5.jsonl", "model": "scramble", "methods": ["ml_adaptive_ghz"], "rs": [6, 8], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 50, "wts": ["r"]},
+      "note": "E5: explore/exploit adaptive GHZ on the E2 w = r instances; superseded by E5b (configs/e5b.json)"
+    },
+    {
+      "name": "e5_r10",
+      "task": "uniform",
+      "args": {"out": "{results}/e5.jsonl", "model": "scramble", "methods": ["ml_adaptive_ghz"], "rs": [10], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 20, "wts": ["r"]}
+    }
+  ]
+}

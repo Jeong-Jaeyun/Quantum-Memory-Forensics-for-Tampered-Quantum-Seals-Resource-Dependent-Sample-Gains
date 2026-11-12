@@ -1,0 +1,19 @@
+{
+  "experiment": "E14",
+  "title": "Seal-noise sweep (vault and per-unit, E1 instances, shared fine checkpoints per group)",
+  "time": "~7.5 h (6 h of it the vault at r = 10)",
+  "workers": 6,
+  "done": "E14 DONE",
+  "steps": [
+    {
+      "name": "e14_ml",
+      "task": "seal_noise",
+      "args": {"out": "{results}/e14_ml.jsonl", "lab": "ml", "rs": [6, 8], "epss": [0.15, 0.6], "p0s": [0.005, 0.02, 0.05, 0.1], "trials": 50, "e1f_path": "{results}/e1f.json"}
+    },
+    {
+      "name": "e14_vault",
+      "task": "seal_noise",
+      "args": {"out": "{results}/e14_vault.jsonl", "lab": "vault", "rs": [6, 8, 10], "epss": [0.15, 0.6], "p0s": [0.005, 0.01, 0.02, 0.05, 0.1], "trials": 200, "e1f_path": "{results}/e1f.json"}
+    }
+  ]
+}

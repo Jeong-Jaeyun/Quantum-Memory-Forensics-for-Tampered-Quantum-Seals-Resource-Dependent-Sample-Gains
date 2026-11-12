@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qmf"
+version = "0.1.0"
+description = "Quantum-memory forensics (QMF) for tampered quantum seals: simulators, experiments, analyses and the paper's tables and figures"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.0", "scipy>=1.10", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+circuits = ["qiskit>=2.0", "pylatexenc"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,718 @@
+{
+ "weight": [
+  {
+   "family": "w=1",
+   "r": 6,
+   "w": 1,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 681.7535949028851,
+   "n_lb_theorem": null,
+   "c_upper": 0.3333333333333333,
+   "vault_ub": 4723,
+   "lb_over_ub": 0.14434757461420392,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 0.5484743321825303
+  },
+  {
+   "family": "w=2",
+   "r": 6,
+   "w": 2,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 3557.510893506886,
+   "n_lb_theorem": null,
+   "c_upper": 0.1111111111111111,
+   "vault_ub": 4723,
+   "lb_over_ub": 0.7532311864295758,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 2.2530151320499594
+  },
+  {
+   "family": "w=3",
+   "r": 6,
+   "w": 3,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 13922.53168767821,
+   "n_lb_theorem": null,
+   "c_upper": 0.037037037037037035,
+   "vault_ub": 4723,
+   "lb_over_ub": 2.947815305458016,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 8.658290850546152
+  },
+  {
+   "family": "w=6",
+   "r": 6,
+   "w": 6,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 12432.030554593932,
+   "n_lb_theorem": 12432.030554593932,
+   "c_upper": 0.04526748971193416,
+   "vault_ub": 4723,
+   "lb_over_ub": 2.632231749861091,
+   "lb_theorem_over_ub": 2.632231749861091,
+   "lb_over_vault_measured": 9.147925352902083
+  },
+  {
+   "family": "w=1",
+   "r": 6,
+   "w": 1,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 39.98249386577249,
+   "n_lb_theorem": null,
+   "c_upper": 0.3333333333333333,
+   "vault_ub": 296,
+   "lb_over_ub": 0.13507599278977192,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 0.5794564328372824
+  },
+  {
+   "family": "w=2",
+   "r": 6,
+   "w": 2,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 208.83974099281514,
+   "n_lb_theorem": null,
+   "c_upper": 0.1111111111111111,
+   "vault_ub": 296,
+   "lb_over_ub": 0.7055396655162673,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 2.5782684073187054
+  },
+  {
+   "family": "w=3",
+   "r": 6,
+   "w": 3,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 818.0918585834387,
+   "n_lb_theorem": null,
+   "c_upper": 0.037037037037037035,
+   "vault_ub": 296,
+   "lb_over_ub": 2.7638238465656713,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 9.976729982724862
+  },
+  {
+   "family": "w=6",
+   "r": 6,
+   "w": 6,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 732.5433452014119,
+   "n_lb_theorem": 732.5433452014119,
+   "c_upper": 0.04526748971193416,
+   "vault_ub": 296,
+   "lb_over_ub": 2.4748085986534183,
+   "lb_theorem_over_ub": 2.4748085986534183,
+   "lb_over_vault_measured": 10.03484034522482
+  },
+  {
+   "family": "w=1",
+   "r": 8,
+   "w": 1,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 751.466894107586,
+   "n_lb_theorem": null,
+   "c_upper": 0.3333333333333333,
+   "vault_ub": 6204,
+   "lb_over_ub": 0.12112619182907575,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 0.4989820013994595
+  },
+  {
+   "family": "w=2",
+   "r": 8,
+   "w": 2,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 4017.3942630961424,
+   "n_lb_theorem": null,
+   "c_upper": 0.1111111111111111,
+   "vault_ub": 6204,
+   "lb_over_ub": 0.6475490430522474,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 2.6206094345049853
+  },
+  {
+   "family": "w=3",
+   "r": 8,
+   "w": 3,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 16229.19951321689,
+   "n_lb_theorem": null,
+   "c_upper": 0.037037037037037035,
+   "vault_ub": 6204,
+   "lb_over_ub": 2.615925131079447,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 8.267549420895003
+  },
+  {
+   "family": "w=4",
+   "r": 8,
+   "w": 4,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 58349.22201935453,
+   "n_lb_theorem": null,
+   "c_upper": 0.012345679012345678,
+   "vault_ub": 6204,
+   "lb_over_ub": 9.405097037291188,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 36.72071870318095
+  },
+  {
+   "family": "w=8",
+   "r": 8,
+   "w": 8,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 39317.81511530766,
+   "n_lb_theorem": 39317.81511530766,
+   "c_upper": 0.019661636945587563,
+   "vault_ub": 6204,
+   "lb_over_ub": 6.33749437706442,
+   "lb_theorem_over_ub": 6.33749437706442,
+   "lb_over_vault_measured": 18.261874182678895
+  },
+  {
+   "family": "w=1",
+   "r": 8,
+   "w": 1,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 44.0709381052367,
+   "n_lb_theorem": null,
+   "c_upper": 0.3333333333333333,
+   "vault_ub": 388,
+   "lb_over_ub": 0.11358489202380592,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 0.47903193592648585
+  },
+  {
+   "family": "w=2",
+   "r": 8,
+   "w": 2,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 235.836685392119,
+   "n_lb_theorem": null,
+   "c_upper": 0.1111111111111111,
+   "vault_ub": 388,
+   "lb_over_ub": 0.6078265087425747,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 2.508900908426798
+  },
+  {
+   "family": "w=3",
+   "r": 8,
+   "w": 3,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 953.6323055985213,
+   "n_lb_theorem": null,
+   "c_upper": 0.037037037037037035,
+   "vault_ub": 388,
+   "lb_over_ub": 2.4578152206147457,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 8.59128203241911
+  },
+  {
+   "family": "w=4",
+   "r": 8,
+   "w": 4,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 3431.851804656506,
+   "n_lb_theorem": null,
+   "c_upper": 0.012345679012345678,
+   "vault_ub": 388,
+   "lb_over_ub": 8.844978877980685,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 30.37036995271244
+  },
+  {
+   "family": "w=8",
+   "r": 8,
+   "w": 8,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 2320.870659711726,
+   "n_lb_theorem": 2320.870659711726,
+   "c_upper": 0.019661636945587563,
+   "vault_ub": 388,
+   "lb_over_ub": 5.98162541162816,
+   "lb_theorem_over_ub": 5.98162541162816,
+   "lb_over_vault_measured": 19.34058883093105
+  },
+  {
+   "family": "w=1",
+   "r": 10,
+   "w": 1,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 805.5407299423666,
+   "n_lb_theorem": null,
+   "c_upper": 0.3333333333333333,
+   "vault_ub": 7834,
+   "lb_over_ub": 0.10282623563216321,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 0.3648282291405646
+  },
+  {
+   "family": "w=2",
+   "r": 10,
+   "w": 2,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 4094.0435852356254,
+   "n_lb_theorem": null,
+   "c_upper": 0.11851851851851852,
+   "vault_ub": 7834,
+   "lb_over_ub": 0.522599385401535,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 2.3013173610093456
+  },
+  {
+   "family": "w=3",
+   "r": 10,
+   "w": 3,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 17936.630343750305,
+   "n_lb_theorem": null,
+   "c_upper": 0.037037037037037035,
+   "vault_ub": 7834,
+   "lb_over_ub": 2.2895877385435672,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 6.189313438147103
+  },
+  {
+   "family": "w=5",
+   "r": 10,
+   "w": 5,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 204759.28134039923,
+   "n_lb_theorem": null,
+   "c_upper": 0.004556143445032334,
+   "vault_ub": 7834,
+   "lb_over_ub": 26.137258276793368,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 86.1418937065205
+  },
+  {
+   "family": "w=10",
+   "r": 10,
+   "w": 10,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 108733.69033085577,
+   "n_lb_theorem": 114456.5161377429,
+   "c_upper": 0.009144947416552356,
+   "vault_ub": 7834,
+   "lb_over_ub": 13.879715385608344,
+   "lb_theorem_over_ub": 14.610226721692992,
+   "lb_over_vault_measured": 52.98912784154764
+  },
+  {
+   "family": "w=1",
+   "r": 10,
+   "w": 1,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 47.24218182984204,
+   "n_lb_theorem": null,
+   "c_upper": 0.3333333333333333,
+   "vault_ub": 490,
+   "lb_over_ub": 0.09641261597926946,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 0.4542517483638658
+  },
+  {
+   "family": "w=2",
+   "r": 10,
+   "w": 2,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 240.33629904392848,
+   "n_lb_theorem": null,
+   "c_upper": 0.11851851851851852,
+   "vault_ub": 490,
+   "lb_over_ub": 0.4904822429467928,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 1.9381959600316814
+  },
+  {
+   "family": "w=3",
+   "r": 10,
+   "w": 3,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 1053.9614190736215,
+   "n_lb_theorem": null,
+   "c_upper": 0.037037037037037035,
+   "vault_ub": 490,
+   "lb_over_ub": 2.1509416715788197,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 8.364773167250965
+  },
+  {
+   "family": "w=5",
+   "r": 10,
+   "w": 5,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 12054.229822463998,
+   "n_lb_theorem": null,
+   "c_upper": 0.004556143445032334,
+   "vault_ub": 490,
+   "lb_over_ub": 24.60046902543673,
+   "lb_theorem_over_ub": null,
+   "lb_over_vault_measured": 110.58926442627521
+  },
+  {
+   "family": "w=10",
+   "r": 10,
+   "w": 10,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 6429.388505268724,
+   "n_lb_theorem": 6767.777373967077,
+   "c_upper": 0.009144947416552356,
+   "vault_ub": 490,
+   "lb_over_ub": 13.12120103116066,
+   "lb_theorem_over_ub": 13.811790559116485,
+   "lb_over_vault_measured": 54.95203850657029
+  }
+ ],
+ "uniform": [
+  {
+   "family": "uniform",
+   "r": 4,
+   "eps": 0.15,
+   "p0": 0.0,
+   "n_lb": 7403.360660330335,
+   "vault_ub": 3036,
+   "lb_over_ub": 2.4385245916766585,
+   "lb_over_vault_measured": 7.943520021813664
+  },
+  {
+   "family": "uniform",
+   "r": 4,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 7403.360660330335,
+   "vault_ub": 3379,
+   "lb_over_ub": 2.190991613000987,
+   "lb_over_vault_measured": 6.3222550472505
+  },
+  {
+   "family": "uniform",
+   "r": 4,
+   "eps": 0.6,
+   "p0": 0.0,
+   "n_lb": 433.7497077782237,
+   "vault_ub": 190,
+   "lb_over_ub": 2.282893198832756,
+   "lb_over_vault_measured": 9.03645224537966
+  },
+  {
+   "family": "uniform",
+   "r": 4,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 433.7497077782237,
+   "vault_ub": 212,
+   "lb_over_ub": 2.0459891876331304,
+   "lb_over_vault_measured": 7.7455304960397084
+  },
+  {
+   "family": "uniform",
+   "r": 5,
+   "eps": 0.15,
+   "p0": 0.0,
+   "n_lb": 18024.97357840775,
+   "vault_ub": 3530,
+   "lb_over_ub": 5.106224809747237,
+   "lb_over_vault_measured": 16.674351136362397
+  },
+  {
+   "family": "uniform",
+   "r": 5,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 18024.97357840775,
+   "vault_ub": 4035,
+   "lb_over_ub": 4.467155781513693,
+   "lb_over_vault_measured": 13.195441858278
+  },
+  {
+   "family": "uniform",
+   "r": 5,
+   "eps": 0.6,
+   "p0": 0.0,
+   "n_lb": 1056.0510801854834,
+   "vault_ub": 221,
+   "lb_over_ub": 4.778511675047437,
+   "lb_over_vault_measured": 17.03308193847554
+  },
+  {
+   "family": "uniform",
+   "r": 5,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 1056.0510801854834,
+   "vault_ub": 253,
+   "lb_over_ub": 4.174114941444598,
+   "lb_over_vault_measured": 14.466453153225801
+  },
+  {
+   "family": "uniform",
+   "r": 6,
+   "eps": 0.15,
+   "p0": 0.0,
+   "n_lb": 42689.086897305664,
+   "vault_ub": 4023,
+   "lb_over_ub": 10.611256996595989,
+   "lb_over_vault_measured": 34.96239713129047
+  },
+  {
+   "family": "uniform",
+   "r": 6,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 42689.086897305664,
+   "vault_ub": 4723,
+   "lb_over_ub": 9.038553228309478,
+   "lb_over_vault_measured": 21.669587257515566
+  },
+  {
+   "family": "uniform",
+   "r": 6,
+   "eps": 0.6,
+   "p0": 0.0,
+   "n_lb": 2501.077526351301,
+   "vault_ub": 252,
+   "lb_over_ub": 9.92491081885437,
+   "lb_over_vault_measured": 36.780551858107366
+  },
+  {
+   "family": "uniform",
+   "r": 6,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 2501.077526351301,
+   "vault_ub": 296,
+   "lb_over_ub": 8.449586237673314,
+   "lb_over_vault_measured": 31.263469079391264
+  },
+  {
+   "family": "uniform",
+   "r": 7,
+   "eps": 0.15,
+   "p0": 0.0,
+   "n_lb": 98975.92498536782,
+   "vault_ub": 4516,
+   "lb_over_ub": 21.916723867441945,
+   "lb_over_vault_measured": 73.15293790492818
+  },
+  {
+   "family": "uniform",
+   "r": 7,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 98975.92498536782,
+   "vault_ub": 5446,
+   "lb_over_ub": 18.174058939656227,
+   "lb_over_vault_measured": 45.84341129475119
+  },
+  {
+   "family": "uniform",
+   "r": 7,
+   "eps": 0.6,
+   "p0": 0.0,
+   "n_lb": 5798.823062817951,
+   "vault_ub": 283,
+   "lb_over_ub": 20.49054085801396,
+   "lb_over_vault_measured": 79.43593236736919
+  },
+  {
+   "family": "uniform",
+   "r": 7,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 5798.823062817951,
+   "vault_ub": 341,
+   "lb_over_ub": 17.005346225272582,
+   "lb_over_vault_measured": 55.757914065557216
+  },
+  {
+   "family": "uniform",
+   "r": 8,
+   "eps": 0.15,
+   "p0": 0.0,
+   "n_lb": 225580.2940577859,
+   "vault_ub": 5009,
+   "lb_over_ub": 45.03499581908283,
+   "lb_over_vault_measured": 121.47565646622827
+  },
+  {
+   "family": "uniform",
+   "r": 8,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 225580.2940577859,
+   "vault_ub": 6204,
+   "lb_over_ub": 36.36046003510411,
+   "lb_over_vault_measured": 114.91609478236674
+  },
+  {
+   "family": "uniform",
+   "r": 8,
+   "eps": 0.6,
+   "p0": 0.0,
+   "n_lb": 13216.347428861392,
+   "vault_ub": 314,
+   "lb_over_ub": 42.090278435864306,
+   "lb_over_vault_measured": 145.23458713034498
+  },
+  {
+   "family": "uniform",
+   "r": 8,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 13216.347428861392,
+   "vault_ub": 388,
+   "lb_over_ub": 34.06275110531287,
+   "lb_over_vault_measured": 119.06619305280533
+  },
+  {
+   "family": "uniform",
+   "r": 9,
+   "eps": 0.15,
+   "p0": 0.0,
+   "n_lb": 506962.3495655497,
+   "vault_ub": 5502,
+   "lb_over_ub": 92.14146666040526,
+   "lb_over_vault_measured": 316.8514684784686
+  },
+  {
+   "family": "uniform",
+   "r": 9,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 506962.3495655497,
+   "vault_ub": 7000,
+   "lb_over_ub": 72.42319279507853,
+   "lb_over_vault_measured": 192.32259088222673
+  },
+  {
+   "family": "uniform",
+   "r": 9,
+   "eps": 0.6,
+   "p0": 0.0,
+   "n_lb": 29702.02061840484,
+   "vault_ub": 344,
+   "lb_over_ub": 86.34308319303733,
+   "lb_over_vault_measured": 306.20639812788494
+  },
+  {
+   "family": "uniform",
+   "r": 9,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 29702.02061840484,
+   "vault_ub": 438,
+   "lb_over_ub": 67.8128324621115,
+   "lb_over_vault_measured": 213.68360157125784
+  },
+  {
+   "family": "uniform",
+   "r": 10,
+   "eps": 0.15,
+   "p0": 0.0,
+   "n_lb": 1126184.2924670987,
+   "vault_ub": 5995,
+   "lb_over_ub": 187.85392701703063,
+   "lb_over_vault_measured": 656.2845527197545
+  },
+  {
+   "family": "uniform",
+   "r": 10,
+   "eps": 0.15,
+   "p0": 0.005,
+   "n_lb": 1126184.2924670987,
+   "vault_ub": 7834,
+   "lb_over_ub": 143.75597299809786,
+   "lb_over_vault_measured": 388.60741631024797
+  },
+  {
+   "family": "uniform",
+   "r": 10,
+   "eps": 0.6,
+   "p0": 0.0,
+   "n_lb": 65981.1307558578,
+   "vault_ub": 375,
+   "lb_over_ub": 175.9496820156208,
+   "lb_over_vault_measured": 646.8738309397824
+  },
+  {
+   "family": "uniform",
+   "r": 10,
+   "eps": 0.6,
+   "p0": 0.005,
+   "n_lb": 65981.1307558578,
+   "vault_ub": 490,
+   "lb_over_ub": 134.6553688895057,
+   "lb_over_vault_measured": 445.8184510530932
+  }
+ ],
+ "decision": {
+  "claim2_w_eq_r": {
+   "lb_over_ub_r10": {
+    "0.15": 13.879715385608344,
+    "0.6": 13.12120103116066
+   },
+   "lb_theorem_over_ub_r10": {
+    "0.15": 14.610226721692992,
+    "0.6": 13.811790559116485
+   },
+   "lb_over_vault_measured_r10": {
+    "0.15": 52.98912784154764,
+    "0.6": 54.95203850657029
+   }
+  },
+  "claim3_w_half": {
+   "lb_over_ub_r10": {
+    "0.15": 26.137258276793368,
+    "0.6": 24.60046902543673
+   },
+   "lb_theorem_over_ub_r10": {
+    "0.15": null,
+    "0.6": null
+   },
+   "lb_over_vault_measured_r10": {
+    "0.15": 86.1418937065205,
+    "0.6": 110.58926442627521
+   }
+  },
+  "claim1_uniform": {
+   "lb_over_ub_r10": {
+    "0.15": 143.75597299809786,
+    "0.6": 134.6553688895057
+   },
+   "lb_over_vault_measured_r10": {
+    "0.15": 388.60741631024797,
+    "0.6": 445.8184510530932
+   }
+  }
+ }
+}

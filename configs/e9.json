@@ -1,0 +1,34 @@
+{
+  "experiment": "E9",
+  "title": "In-seal references, P and the vault vs three attackers",
+  "time": "~2.2 h",
+  "workers": 6,
+  "done": "E9 DONE",
+  "steps": [
+    {
+      "name": "e9_obl",
+      "task": "references",
+      "args": {"out": "{results}/e9.jsonl", "labs": ["inseal", "vault_seal"], "atts": ["obl"], "rs": [4, 6, 8, 10], "epss": [0.15, 0.6], "p0": 0.005, "trials": 200}
+    },
+    {
+      "name": "e9_mirror",
+      "task": "references",
+      "args": {"out": "{results}/e9.jsonl", "labs": ["inseal", "vault_seal"], "atts": ["mirror"], "rs": [4, 6, 8, 10], "epss": [0.15, 0.6], "p0": 0.005, "trials": 100}
+    },
+    {
+      "name": "e9_extend",
+      "task": "references",
+      "args": {"out": "{results}/e9.jsonl", "labs": ["inseal", "vault_seal"], "atts": ["extend"], "rs": [4, 6, 8, 10], "epss": [0.15, 0.6], "p0": 0.005, "trials": 100}
+    },
+    {
+      "name": "e9_pmirror",
+      "task": "references",
+      "args": {"out": "{results}/e9.jsonl", "labs": ["paired"], "atts": ["mirror"], "rs": [4, 6, 8, 10], "epss": [0.15, 0.6], "p0": 0.005, "trials": 50}
+    },
+    {
+      "name": "e9_sparse",
+      "task": "references",
+      "args": {"out": "{results}/e9.jsonl", "labs": ["vault_sparse"], "atts": ["extend"], "rs": [4], "epss": [0.15, 0.6], "p0": 0.005, "trials": 100}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "E10",
+  "title": "All Lagrangians (r <= 6) and labeled graph states (r <= 8); exact maxima and bounds (r <= 10)",
+  "time": "~20 min",
+  "workers": 6,
+  "done": "E10 DONE",
+  "steps": [
+    {
+      "name": "e10_enum",
+      "task": "coverage_enum",
+      "args": {"r_lagr": 6, "r_graph": 8, "out": "{results}/e10_enum.json"},
+      "note": "r = 8: 2^28 graphs, about 30 min on 6 workers"
+    },
+    {
+      "name": "e10_bound",
+      "task": "coverage_bound",
+      "args": {"enum_path": "{results}/e10_enum.json", "out": "{results}/e10_bound.json"},
+      "note": "exact maxima (r <= 8), integer-program upper bounds and graph-search lower bounds (r <= 10)"
+    }
+  ]
+}

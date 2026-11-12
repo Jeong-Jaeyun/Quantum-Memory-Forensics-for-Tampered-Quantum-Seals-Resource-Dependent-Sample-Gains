@@ -1,0 +1,2 @@
+r,eps,p0,trial,units,L0,L1,L2,window,status,tier3,cells_true,cells_found,onset_true,onset_found,tool1,first_window,tool2,last_window,switch_true,switch_found,stored_row_matches
+6,0.6,0.005,0,648,56,265,327,166,localized,switch,0 3 8 16 17 18,0 3 8 16 17 18,56,56,-ZIIZZY,-ZIIZZY,-ZIIZYZ,-ZIIZYZ,321,322,True

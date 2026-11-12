@@ -1,0 +1,49 @@
+{
+  "experiment": "E1-E3",
+  "title": "E1 uniform fingerprint, E2 weight sweep, E3 vault-noise grid",
+  "time": "~11 h",
+  "workers": 6,
+  "done": "ALL DONE",
+  "steps": [
+    {
+      "name": "e1_ml_r4-8",
+      "task": "uniform",
+      "args": {"out": "{results}/e1_ml.jsonl", "model": "scramble", "methods": ["ml_random"], "rs": [4, 5, 6, 7, 8], "epss": [0.15, 0.6], "p0s": [0, 0.005], "trials": 50}
+    },
+    {
+      "name": "e1_ml_r9-10",
+      "task": "uniform",
+      "args": {"out": "{results}/e1_ml.jsonl", "model": "scramble", "methods": ["ml_random"], "rs": [9, 10], "epss": [0.15, 0.6], "p0s": [0, 0.005], "trials": 20}
+    },
+    {
+      "name": "e1_vault",
+      "task": "uniform",
+      "args": {"out": "{results}/e1_vault.jsonl", "model": "scramble", "methods": ["memory"], "rs": [4, 5, 6, 7, 8, 9, 10], "epss": [0.15, 0.6], "p0s": [0, 0.005], "trials": 200}
+    },
+    {
+      "name": "e2_r6-8",
+      "task": "uniform",
+      "args": {"out": "{results}/e2.jsonl", "model": "scramble", "methods": ["memory", "ml_random", "ml_product", "ml_mix"], "rs": [6, 8], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 50, "wts": ["1", "2", "3", "h", "r"]}
+    },
+    {
+      "name": "e2_r10",
+      "task": "uniform",
+      "args": {"out": "{results}/e2.jsonl", "model": "scramble", "methods": ["memory", "ml_product", "ml_mix"], "rs": [10], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 20, "wts": ["1", "2", "3", "h", "r"]}
+    },
+    {
+      "name": "e2_r10_rand",
+      "task": "uniform",
+      "args": {"out": "{results}/e2.jsonl", "model": "scramble", "methods": ["ml_random"], "rs": [10], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 20, "wts": ["r"]}
+    },
+    {
+      "name": "e3_dep",
+      "task": "uniform",
+      "args": {"out": "{results}/e3_dep.jsonl", "model": "scramble", "methods": ["memory"], "rs": [6, 8, 10], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 50, "wts": ["u"], "pvs": [0, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6], "vkind": "dep"}
+    },
+    {
+      "name": "e3_deph",
+      "task": "uniform",
+      "args": {"out": "{results}/e3_deph.jsonl", "model": "scramble", "methods": ["memory"], "rs": [6, 8, 10], "epss": [0.15, 0.6], "p0s": [0.005], "trials": 50, "wts": ["u"], "pvs": [0, 0.05, 0.1, 0.2, 0.3, 0.4], "vkind": "deph"}
+    }
+  ]
+}

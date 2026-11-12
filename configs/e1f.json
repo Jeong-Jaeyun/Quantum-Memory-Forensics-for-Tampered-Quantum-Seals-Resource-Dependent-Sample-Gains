@@ -1,0 +1,30 @@
+{
+  "experiment": "E1f",
+  "title": "E1 trials replayed with the same draws, decoded at fine checkpoints around N90",
+  "time": "~3.6 h",
+  "workers": 6,
+  "done": "E1F DONE",
+  "steps": [
+    {
+      "name": "e1f_windows",
+      "task": "fine_windows",
+      "args": {"ml_path": "{results}/e1_ml.jsonl", "vault_path": "{results}/e1_vault.jsonl", "out": "{results}/e1f_windows.json"},
+      "note": "windows from the stored E1 rows (written before the replays)"
+    },
+    {
+      "name": "e1f_ml",
+      "task": "fine_run",
+      "args": {"win_path": "{results}/e1f_windows.json", "lab": "ml", "e1_path": "{results}/e1_ml.jsonl", "out": "{results}/e1f_ml.jsonl"}
+    },
+    {
+      "name": "e1f_vault",
+      "task": "fine_run",
+      "args": {"win_path": "{results}/e1f_windows.json", "lab": "vault", "e1_path": "{results}/e1_vault.jsonl", "out": "{results}/e1f_vault.jsonl"}
+    },
+    {
+      "name": "e1f",
+      "task": "fine_analyze",
+      "args": {"ml_f": "{results}/e1f_ml.jsonl", "vault_f": "{results}/e1f_vault.jsonl", "ml_path": "{results}/e1_ml.jsonl", "vault_path": "{results}/e1_vault.jsonl", "win_path": "{results}/e1f_windows.json", "out": "{results}/e1f.json"}
+    }
+  ]
+}

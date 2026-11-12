@@ -1,0 +1,6 @@
+numpy>=2.0
+scipy>=1.10
+matplotlib>=3.8
+pytest>=8.0
+# optional, for src/qmf/circuits.py: qiskit>=2.0 pylatexenc
+# the qmf package itself: pip install -e .  (or set PYTHONPATH=src)

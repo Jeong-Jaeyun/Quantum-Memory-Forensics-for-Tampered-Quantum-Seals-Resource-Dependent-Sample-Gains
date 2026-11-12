@@ -1,0 +1,15 @@
+{
+  "experiment": "E15",
+  "title": "Tier 3 under transit reordering (E6 vault records regenerated, a fraction f of the units permuted)",
+  "time": "under 30 min",
+  "workers": 6,
+  "done": "E15 DONE",
+  "steps": [
+    {
+      "name": "e15",
+      "task": "reorder",
+      "args": {"out": "{results}/e15.jsonl", "fs": [0.0, 0.05, 0.2, 0.5, 1.0], "rs": [6, 8, 10], "epss": [0.15, 0.6], "p0": 0.005, "trials": 600},
+      "note": "f = 0 is the control: its rows must equal E6's stored vault rows on E6's fields."
+    }
+  ]
+}
